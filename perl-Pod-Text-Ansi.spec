@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Text-Ansi
-%define upstream_version 0.03
+%define upstream_version 0.04
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -47,5 +47,3 @@ rm -rf %buildroot
 %doc README Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
