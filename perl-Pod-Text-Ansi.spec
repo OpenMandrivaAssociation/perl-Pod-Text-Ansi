@@ -2,14 +2,14 @@
 %define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Convert POD to ANSI-colored text
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/hinrik/pod-text-ansi
+Source0:	https://cpan.metacpan.org/authors/id/H/HI/HINRIK/Pod-Text-Ansi-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
